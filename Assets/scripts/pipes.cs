@@ -1,9 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class pipes : MonoBehaviour
+public class Pipes : MonoBehaviour
 {
+    public Transform top;
+    public Transform bottom;
+
     public float speed = 5f;
     private float leftEdge;
 
@@ -11,14 +12,14 @@ public class pipes : MonoBehaviour
     {
         leftEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).x - 1f;
     }
+
     private void Update()
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
 
-        if (transform.position.x < leftEdge)
-        {
+        if (transform.position.x < leftEdge) {
             Destroy(gameObject);
-
         }
     }
+
 }
