@@ -24,6 +24,7 @@ Library: D:\Uniity Projects\Flappy\Temp\BurstOutput\tempburstlibs\armeabi-v7a\li
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Uniity Projects\Flappy\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=D:\Uniity Projects\Flappy\Library\Burst
 --output=D:\Uniity Projects\Flappy\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
