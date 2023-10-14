@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
         Pause();
     }
-
+    //check
     public void Play()
     {
         score = 0;
